@@ -16,16 +16,24 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "exports-loader": "^0.7.0",
+    "imports-loader": "^0.8.0",
     "react-hot-loader": "^4.2.0",
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.1",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "history": "^4.7.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
     "redux": "^4.0.0",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "soundcloud": "^3.3.0",
+    "whatwg-fetch": "^2.0.4"
   }
 }
